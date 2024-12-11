@@ -1,0 +1,209 @@
+#projects-title {
+    display: flex;
+    margin-top: 1000px;
+    padding-top: 8%;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #D356C2;
+}
+
+.project-list {
+   display: flex; 
+   justify-self: center; 
+   row-gap: 30px; 
+   flex-direction: column;
+} 
+
+.projects-row {
+    display: flex;
+    column-gap: 20px; 
+    flex-direction: row;
+}
+
+.project-card {
+    width: 300px;
+    padding: 20px;
+    background: rgb(68, 65, 65);
+    border: 1px solid rgb(68, 65, 65);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+}
+
+
+.project-card p {
+    display: inline;
+    padding-left: 0px;
+}
+
+.more-toggle {
+    padding-top: 100px;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+    text-decoration: none;
+    color: #D356C2;
+    font-weight: bold;
+} 
+
+.project-title:hover {
+    color: #a33995;
+}
+
+.technologies {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.technology {
+    background: #D356C2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px)  {
+    #projects-title {
+        display: flex;
+        margin-top: 1000px;
+        padding-top: 8%;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: #D356C2;
+    }
+    
+    .project-list {
+        display: flex;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    } 
+    
+    .projects-row {
+        display: flex;
+        column-gap: 10px; 
+        flex-direction: row;
+    }
+    
+    .project-card {
+        width: 200px;
+        padding: 20px;
+        background: rgb(68, 65, 65);
+        border: 1px solid rgb(68, 65, 65);
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.4s ease;
+        overflow: hidden;
+    }
+    
+    .project-card:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .project-title {
+        text-decoration: none;
+        color: #D356C2;
+        font-weight: bold;
+    } 
+    
+    .project-title:hover {
+        color: #a33995;
+    }
+    
+    .technologies {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    .technology {
+        background: #D356C2;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    #projects-title {
+        display: flex;
+        margin-top: 1000px;
+        padding-top: 8%;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #D356C2;
+    }
+    
+    .project-list {
+        display: flex;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    } 
+    
+    .projects-row {
+        display: flex;
+        column-gap: 10px; 
+        flex-direction: column;
+    }
+    
+    .project-card {
+        width: 200px;
+        padding: 20px;
+        background: rgb(68, 65, 65);
+        border: 1px solid rgb(68, 65, 65);
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.4s ease;
+        overflow: hidden;
+    }
+    
+    .project-card:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .project-title {
+        text-decoration: none;
+        color: #D356C2;
+        font-weight: bold;
+        font-size: 18px;
+    } 
+    
+    .project-title:hover {
+        color: #a33995;
+    }
+    
+    .technologies {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    
+    .technology {
+        background: #D356C2;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.5rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}

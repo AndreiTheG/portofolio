@@ -1,0 +1,431 @@
+.technologies-presentation {
+    padding-bottom: 50px;
+}
+
+#technologies {
+    display: flex;
+    padding-top: 8%;
+    margin-top: 1000px;
+    justify-content: space-evenly;
+    justify-self: center;
+    color: #D356C2;
+}
+
+.tools-logos h2 {
+    font-size: 28px;
+    justify-self: center;
+}
+
+.list-of-ides-and-techs h2 {
+    font-size: 28px;
+    justify-self: center;
+}
+
+.technologies-part1 {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-self: center;
+    column-gap: 30px;
+}
+
+.technologies-part2 {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-self: center;
+    column-gap: 30px;
+}
+
+#CPlusPlus {
+    width: 90px;
+    height: 100px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Java {
+    width: 80px;
+    height: 110px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#JavaScript {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#CSharp {
+    width: 90px;
+    height: 100px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#HTML5 {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#CSS3 {
+    width: 70px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Bootstrap {
+    padding-top: 10px;
+    width: 90px;
+    height: 80px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#DotNet {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Angular {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#SpringBoot {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#PostgreSQL {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Thymeleaf {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Hibernate {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#SQLServer {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Visual-Studio-Code {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Visual-Studio {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Code-Blocks {
+    width: 200px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Intellij-IDEA {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+#Figma-Logo {
+    width: 70px;
+    height: 90px;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+.tech-logos {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-self: center;
+    column-gap: 30px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1300px){
+    #technologies {
+        display: flex;
+        margin-top: 1000px;
+        justify-self: center;
+        font-size: 24px;
+        justify-content: center;
+        color: #D356C2;
+    }
+
+    .tools-logos h2 {
+        font-size: 24px;
+        justify-self: center;
+    }
+    
+    .list-of-ides-and-techs h2 {
+        font-size: 24px;
+        justify-self: center;
+    }
+
+    #CPlusPlus {
+        width: 50px;
+        height: 60px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+
+    #Java {
+        width: 60px;
+        height: 90px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #JavaScript {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #CSharp {
+        width: 70px;
+        height: 80px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #HTML5 {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #CSS3 {
+        width: 50px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Bootstrap {
+        padding-top: 10px;
+        width: 70px;
+        height: 60px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #DotNet {
+        width: 90px;
+        height: 90px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Angular {
+        width: 80px;
+        height: 80px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #SpringBoot {
+        width: 80px;
+        height: 80px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #PostgreSQL {
+        width: 80px;
+        height: 80px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Thymeleaf {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Hibernate {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #SQLServer {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Visual-Studio-Code {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Visual-Studio {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Code-Blocks {
+        width: 90px;
+        height: 60px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Intellij-IDEA {
+        width: 50px;
+        height: 50px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Figma-Logo {
+        width: 70px;
+        height: 90px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+      
+}
+
+@media screen and (max-width: 760px) {
+    #technologies {
+        display: flex;
+        margin-top: 1000px;
+        font-size: 20px;
+        justify-content: center;
+        color: #D356C2;
+    }
+
+    .tools-logos h2 {
+        font-size: 15px;
+    }
+    
+    .list-of-ides-and-techs h2 {
+        font-size: 15px;
+    }     
+
+    #CPlusPlus {
+        width: 20px;
+        height: 25px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+
+    #Java {
+        width: 20px;
+        height: 30px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #JavaScript {
+        padding-top: 1%;
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #CSharp {
+        width: 25px;
+        height: 30px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #HTML5 {
+        width: 30px;
+        height: 30px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #CSS3 {
+        width: 20px;
+        height: 30px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Bootstrap {
+        width: 30px;
+        height: 25px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #DotNet {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Angular {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #SpringBoot {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #PostgreSQL {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Thymeleaf {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Hibernate {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #SQLServer {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Visual-Studio-Code {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Visual-Studio {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Code-Blocks {
+        width: 50px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Intellij-IDEA {
+        width: 20px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+    
+    #Figma-Logo {
+        width: 15px;
+        height: 20px;
+        filter: drop-shadow(0px 10px 4px #000000);
+    }
+}

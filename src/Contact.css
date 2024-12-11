@@ -1,0 +1,170 @@
+#contact {
+    margin-top: 1000px;
+    padding-top: 8%;
+}
+
+#contact-title {
+    color: #D356C2;
+    display: 'flex';
+    justify-content: 'center';
+}
+
+input {
+    display: flex;
+    justify-self: center;
+    font-size: 1rem;
+    width: 600px;
+    height: 35px;
+    background-color: #434343;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+#message {
+    display: flex;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    font-size: 1rem;
+    height: 300px;
+    resize: none;
+    background-color: #434343;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#profiles {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    padding-right: 2%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+}
+
+#github:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+#hackerrank {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+}
+
+#hackerrank:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+#leetcode {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+}
+
+#leetcode:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+#submit {
+    display: flex;
+    justify-self: center;
+    border: none;
+    transition: all 0.3s ease;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+
+#submit:hover {
+    background-image: linear-gradient(315deg, #1fd1f9 15%, #b621fe 59%);
+} 
+
+#submit:hover::after {
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(0, #1fd1f9 15%, #b621fe 59%);
+}
+
+@media screen and (max-width: 680px)  {
+    input {
+        display: flex;
+        justify-self: center;
+        font-size: 1rem;
+        width: 300px;
+        height: 30px;
+        background-color: #434343;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    #message {
+        display: flex;
+        justify-self: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 300px;
+        font-size: 1rem;
+        height: 200px;
+        resize: none;
+        background-color: #434343;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    #linkedin {
+        width: 40px;
+        height: 40px;
+        padding-right: 2%;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.5s ease;
+    }
+    
+    #github {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.5s ease;
+    }
+    
+    #hackerrank {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.5s ease;
+    }
+    
+    #leetcode {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.5s ease;
+    }
+}
