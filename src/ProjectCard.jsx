@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Projects.css'; // CSS separat
+import './Projects.css';
 
 const ProjectCard = ({ title, description, fullDescription, technologies, link }) => {
     let [showMore, setShowMore] = useState(false);

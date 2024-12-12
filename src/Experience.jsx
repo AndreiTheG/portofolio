@@ -1,6 +1,3 @@
-import { Card } from "react-bootstrap";
-import {CardBody} from "react-bootstrap";
-import {CardTitle} from "react-bootstrap";
 import Optima_Logo from "./assets/Optima-Logo.jpg";
 import ExperienceCard from "./ExperienceCard";
 import './Experience.css';
