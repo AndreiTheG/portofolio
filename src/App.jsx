@@ -11,8 +11,14 @@ import Experience from './Experience';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
+import { analytics } from './firebaseConfig';
 
 function App() {
+  React.useEffect(() => {
+    // Firebase Analytics logic can go here
+    console.log('Firebase Analytics initialized:', analytics);
+  }, []);
+
   return (
     <>
       <Nav/>
