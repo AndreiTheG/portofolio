@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -11,12 +11,15 @@ import Experience from './Experience';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
-import { analytics } from './firebaseConfig';
+import {analytics} from './firebaseConfig';
 
 function App() {
   React.useEffect(() => {
-    // Firebase Analytics logic can go here
-    console.log('Firebase Analytics initialized:', analytics);
+    if (analytics) {
+      console.log("Firebase Analytics initialized:", analytics);
+    } else {
+      console.warn("Firebase Analytics is not available in this environment.");
+    }
   }, []);
 
   return (
