@@ -500,7 +500,7 @@
     }
     
     .toggle-switch input:checked + .slider i {
-        left: 24px;
+        left: 20px;
         transform: translateY(-50%);
         color: black;
     }
