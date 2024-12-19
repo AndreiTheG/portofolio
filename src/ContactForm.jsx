@@ -42,13 +42,13 @@ function ContactForm() {
       });
 
       if (response.ok) {
-        alert("Mesajul a fost trimis cu succes!");
+        alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        alert("Eroare la trimiterea mesajului!");
+        alert("Error sending message!");
       }
     } catch (error) {
-      alert("Eroare de rețea! Verificați conexiunea.");
+      alert("Network error! Check the connection.");
     }
   };
 
