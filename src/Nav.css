@@ -407,7 +407,7 @@
     }
 }
 
-@media screen and (min-width: 380px) and (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .navigation {
         background-color: #434343;
         position: fixed;
@@ -449,7 +449,7 @@
         margin-top: 1%;
         align-self: center;
         width: 60px;
-        height: 20px;
+        height: 30px;
         /* width: 80px;
         height: 40px; */
     }
@@ -516,7 +516,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+/* @media screen and (max-width: 380px) {
     .navigation {
         background-color: #434343;
         position: fixed;
@@ -570,7 +570,7 @@
         cursor: pointer;
         background-color: #01defb;
         border-radius: 18px;
-        /* top: 5%; */
+        top: 5%;
         width: 50%;
         height: 50%;
         transition: background-color 0.3s;
@@ -610,7 +610,6 @@
         color: black;
     }
     
-    /* Toggled state */
     .toggle-switch input:checked+.slider {
         background-color: #01defb;
     }
@@ -619,4 +618,4 @@
         transform: translateX(20px);
         background-color: white;
     }
-}
+} */
