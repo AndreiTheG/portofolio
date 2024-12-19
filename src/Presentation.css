@@ -61,7 +61,7 @@
     #short-presentation {
         text-align: justify;
         font-size: 12px;
-        padding: 20px 50px 50px 100px;
+        padding: 20px 50px 50px 50px;
         display: flex;
         justify-content: center;
         font-weight: bolder;
